@@ -4,6 +4,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :email
       t.string :username
       t.string :password
+      t.string :confirm_password
       t.string :image
       t.string :vibe
 
